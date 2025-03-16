@@ -1,4 +1,7 @@
 # EmployeePortal
+
+![image](https://github.com/user-attachments/assets/1fcba110-57b8-4512-bc28-9af2c3e6bd54)
+
 Employee Portal with proper CRUD operation functionality
 
 Download the project on your local machine.
