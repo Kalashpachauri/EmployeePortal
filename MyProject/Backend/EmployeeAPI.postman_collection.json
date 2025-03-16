@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "141a4e76-871f-454e-92c1-65203b27ef74",
+		"name": "EmployeeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43077352"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/employees/8ae1cfe2-3dd9-400b-a854-11f687bdbdb0",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "empkey",
+						"value": "1e20e14f4ebbb5f53c7f8fa6d1c0863afb75949b9643f58c800e859daf5ed2cd",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Kalash\",\r\n    \"lastName\": \"Pachauri\",\r\n    \"email\": \"kalashpi@gmail.com\",\r\n    \"phone\": 8178432835,\r\n    \"position\": \"SDE 2\",\r\n    \"department\": \"IT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/employees/8ae1cfe2-3dd9-400b-a854-11f687bdbdb0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"employees",
+						"8ae1cfe2-3dd9-400b-a854-11f687bdbdb0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/employees/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "empkey",
+						"value": "1e20e14f4ebbb5f53c7f8fa6d1c0863afb75949b9643f58c800e859daf5ed2cd",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Kalash\",\r\n    \"lastName\": \"Pachauri\",\r\n    \"email\": \"kalashpi07@gmail.com\",\r\n    \"phone\": 8178432835,\r\n    \"position\": \"SDE 2\",\r\n    \"department\": \"IT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/employees/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"employees",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/employees/1741853850659",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "empkey",
+						"value": "1e20e14f4ebbb5f53c7f8fa6d1c0863afb75949b9643f58c800e859daf5ed2cd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/employees/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"employees",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/employees",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "empkey",
+						"value": "1e20e14f4ebbb5f53c7f8fa6d1c0863afb75949b9643f58c800e859daf5ed2cd",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Kalash\",\r\n    \"lastName\": \"Pachauri\",\r\n    \"email\": \"kalashpi07@gmail.com\",\r\n    \"phone\": 8178432835,\r\n    \"position\": \"SDE 2\",\r\n    \"department\": \"IT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

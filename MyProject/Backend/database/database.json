@@ -1,0 +1,13 @@
+{
+  "employees": [
+    {
+      "id": "023b9d3f-461a-4d47-96d1-cdacb00e641a",
+      "firstName": "Kalash",
+      "lastName": "Pachauri",
+      "email": "kalashpi07@gmail.com",
+      "phone": "8178432835",
+      "position": "SDE 2",
+      "department": "IT"
+    }
+  ]
+}
